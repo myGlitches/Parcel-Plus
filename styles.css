@@ -366,7 +366,9 @@ nav {
     .black-border {
         border: 5px solid #000000;
     }
-    
+    .container-right-specials {
+        width: 100%;
+    }
 }
 
 /* Contact us */
@@ -416,4 +418,25 @@ nav {
 
 .text-light-blue {
     color: #37C6F4;
+}
+
+/* Common css */
+
+.page-margin-top {
+    margin-top: 150px;
+}
+.page-margin-bottom {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    .page-margin-top {
+        margin-top: 100px;
+    }
+}
+
+/* Experimental */
+
+.section-header {
+    display: none;
 }
