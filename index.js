@@ -27,7 +27,7 @@ class Header extends HTMLElement {
                             Home
                         </a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active d-none">
                         <a href="/pages/about.html" class="nav-link">
                             About
                         </a>
