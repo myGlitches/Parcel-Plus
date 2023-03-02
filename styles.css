@@ -446,3 +446,9 @@ nav {
 .section-header {
     display: none;
 }
+
+
+.map-img {
+    object-fit: cover;
+    height: 300px;
+}
