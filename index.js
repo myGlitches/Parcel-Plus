@@ -6,7 +6,7 @@ class Header extends HTMLElement {
             <div>
                 <a href="/index.html#top" class="navbar-brand d-flex justify-content-between align-items-center rounded">
                     <img class="me-3 navbar-logo" src="/assets/images/parcelplus-logo.png" height="30" width="100%" alt="">
-                    <span class="navbar-logo-text-small-screen"> DHL Express Service Point</span>
+                    <span class="navbar-logo-text-small-screen">Parcel Plus Sugar Land</span>
                 </a>
             </div>
             <button 
@@ -63,8 +63,8 @@ class Header extends HTMLElement {
         `
         <section class="footer footer-bg">
         <div class="row m-0 px-5 pt-4">
-            <p class="tracking-sub-headers text-light-blue mb-3">Parcel Plus</p>
-            <p class="tracking-sub-headers text-light-blue mb-3">DHL Express Service Point</p>
+            <p class="tracking-sub-headers text-light-blue lh-1 m-0">Parcel Plus</p>
+            <p class="tracking-sub-headers text-light-blue lh-1 mb-3">DHL Express Service Point</p>
         </div>
         <div class="row m-0 px-5 pt-1 pb-3">
             <div class="col-lg-4 col-md-6">
@@ -82,6 +82,9 @@ class Header extends HTMLElement {
                     <p class="fw-bold mb-0 text-white">Fax : (123) 525-6542</p>
                     <p class="fw-bold text-white">Email : abc@xyz.com</p>
             </div>
+        </div>
+        <div className="row w-100">
+            <p class="text-white m-0 p-4 d-flex justify-content-center align-items-center">PARCEL PLUS - DHL Express Service Point © All Rights Reserved.</p>
         </div>
     </section>
   
