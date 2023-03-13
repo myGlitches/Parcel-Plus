@@ -3,12 +3,10 @@ class Header extends HTMLElement {
       this.innerHTML = `
       <nav class="navbar fixed-top navbar-expand-lg bg-parcel-plus">
             <div class="container-fluid px-2">
-            <div>
                 <a href="/index.html#top" class="navbar-brand d-flex justify-content-between align-items-center rounded">
                     <img class="me-3 navbar-logo" src="/assets/images/parcelplus-logo.webp" height="30" width="100%" alt="">
                     <span class="navbar-logo-text-small-screen">Parcel Plus Sugar Land</span>
                 </a>
-            </div>
             <button 
             type="button"
             data-bs-toggle="collapse"
