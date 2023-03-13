@@ -18,7 +18,34 @@ nav {
     margin-top: 1rem ;
     margin-bottom: 1rem !important;
     font-weight: 600;
+    width: 20%;
     /* display: flex; */
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        width: 20%;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px)  {
+    .navbar-brand {
+        width: 30%;
+    }
+}
+@media (max-width: 768px) and (min-width: 600px)  {
+    .navbar-brand {
+        width: 30%;
+    }
+}
+@media (max-width: 600px) and (min-width: 425px)  {
+    .navbar-brand {
+        width: 40%;
+    }
+}
+@media (max-width: 425px) {
+    .navbar-brand {
+        width: 50%;
+    }
 }
 
 
@@ -46,11 +73,7 @@ nav {
 }
 
 
-@media (max-width: 391px) {
-    .navbar-brand {
-        width: 50%;
-    }
-}
+
 .nav-link {
     font-family: 'Lexend', sans-serif;
     font-weight: 600;

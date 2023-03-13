@@ -3,9 +3,11 @@ class Header extends HTMLElement {
       this.innerHTML = `
       <nav class="navbar fixed-top navbar-expand-lg bg-parcel-plus">
             <div class="container-fluid px-2">
-                <a href="/index.html#top" class="navbar-brand justify-content-between align-items-center rounded">
+                <a href="/index.html#top" class="navbar-brand rounded">
                     <img class="me-3 img-fluid" src="/assets/images/parcelplus-logo.webp" height="30" width="100%" alt="">
-                    <span class="navbar-logo-text-small-screen">Parcel Plus Sugar Land</span>
+                    
+
+
                 </a>
             <button 
             type="button"
@@ -94,3 +96,8 @@ class Header extends HTMLElement {
   
   customElements.define('main-header', Header);
   customElements.define('main-footer', Footer);
+
+
+//  After Line 7
+
+{/* <span class="navbar-logo-text-small-screen">Parcel Plus Sugar Land</span> */}
