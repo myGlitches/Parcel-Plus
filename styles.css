@@ -45,6 +45,12 @@ nav {
     }
 }
 
+
+@media (max-width: 376px) {
+    .navbar-brand {
+        width: 50%;
+    }
+}
 .nav-link {
     font-family: 'Lexend', sans-serif;
     font-weight: 600;
@@ -168,9 +174,6 @@ nav {
         font-size: 30px !important;
     }
 
-    .navbar-logo {
-        max-width: 126px;
-    }
 }
 
 .logo-div {

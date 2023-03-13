@@ -4,7 +4,7 @@ class Header extends HTMLElement {
       <nav class="navbar fixed-top navbar-expand-lg bg-parcel-plus">
             <div class="container-fluid px-2">
                 <a href="/index.html#top" class="navbar-brand justify-content-between align-items-center rounded">
-                    <img class="me-3 navbar-logo" src="/assets/images/parcelplus-logo.webp" height="30" width="100%" alt="">
+                    <img class="me-3 img-fluid" src="/assets/images/parcelplus-logo.webp" height="30" width="100%" alt="">
                     <span class="navbar-logo-text-small-screen">Parcel Plus Sugar Land</span>
                 </a>
             <button 
